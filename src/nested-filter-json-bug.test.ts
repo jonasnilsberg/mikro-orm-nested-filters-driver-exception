@@ -112,6 +112,7 @@ describe('Nested filter serialized as JSON string', () => {
       entities: [Company, Location, User, Client, ClientManagementObject],
       allowGlobalContext: true,
       loadStrategy: 'select-in',
+      autoJoinRefsForFilters: false,
     });
   });
 
